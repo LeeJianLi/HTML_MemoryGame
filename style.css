@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+tr {
+    background: #55af71;
+}
+
+table {
+    margin: 0 auto;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+}
+
+#input {
+    display: inline-block;
+}
+
+#winning_screen {
+    visibility: hidden;
+}
+
+.flippedCard {
+    background-color: #898dc1;
+}
